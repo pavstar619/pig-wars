@@ -178,3 +178,8 @@ i {
     font-size: 1.2em;
     line-height: 30pt;
 }
+
+.logo {
+    display: none;
+    width: 50px;
+  }
