@@ -69,6 +69,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
         } else {
             //Next player
             nextPlayer();
+
         }
     }
 });
@@ -89,6 +90,7 @@ function nextPlayer() {
     //document.querySelector('.player-1-panel').classList.add('active');
 
     document.querySelector('.dice').style.display = 'none';
+
 }
 
 document.querySelector('.btn-new').addEventListener('click', init);
@@ -112,6 +114,8 @@ function init() {
     document.querySelector('.player-0-panel').classList.remove('active');
     document.querySelector('.player-1-panel').classList.remove('active');
     document.querySelector('.player-0-panel').classList.add('active');
+    document.querySelector('.btn-new').textContent = 'New Game';
+
 }
 
 //document.querySelector('#current-' + activePlayer).textContent = dice;
